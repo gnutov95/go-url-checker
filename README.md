@@ -1,23 +1,22 @@
-URL Checker 🔍
+# URL Checker 🔍
+
 A lightweight CLI tool written in Go for checking website availability and HTTP status codes. Performs concurrent URL checks with colorful output.
 
-Features ✨
-Concurrent checking - Multiple URLs checked simultaneously
+## Features ✨
 
-Fast HEAD requests - Uses HTTP HEAD method for efficiency
+* **Concurrent checking** - Multiple URLs checked simultaneously
+* **Fast HEAD requests** - Uses HTTP HEAD method for efficiency  
+* **Timeout handling** - Configurable 10-second timeout per request
+* **Colorful status output** - Visual indicators for different HTTP statuses
+* **Simple file-based input** - Check multiple URLs from a text file
 
-Timeout handling - Configurable 10-second timeout per request
+## Installation 📦
 
-Colorful status output - Visual indicators for different HTTP statuses
+### Prerequisites
+* Go 1.16 or higher
 
-Simple file-based input - Check multiple URLs from a text file
-
-Installation 📦
-Prerequisites
-Go 1.16 or higher
-
-From Source
-bash
+### From Source
+```bash
 # Clone the repository
 git clone https://github.com/gnutov95/go-url-checker.git
 cd go-url-checker
