@@ -26,7 +26,7 @@ go build -o url-checker main.go
 
 # Or run directly
 go run main.go urls.txt
-Usage 🚀
+##Usage 🚀
 Basic Usage
 bash
 # Check URLs from a file
@@ -43,7 +43,7 @@ https://github.com
 https://httpbin.org/status/200
 https://httpbin.org/status/404
 https://httpbin.org/status/500
-Example Output 📊
+##Example Output 📊
 bash
 ❌ https://invalid-domain.com - Error: dial tcp: lookup invalid-domain.com: no such host
 ✅ https://google.com - Status: 200
@@ -57,7 +57,7 @@ go-url-checker/
 ├── urls.txt         # Example URL list for testing
 ├── go.mod           # Go module file
 └── README.md        # This file
-Core Functions 🔧
+##Core Functions 🔧
 main()
 Handles command line arguments
 
@@ -81,7 +81,7 @@ Skips empty lines
 
 Returns URL array for processing
 
-Building and Running 🧪
+## Building and Running 🧪
 bash
 # Build the application
 go build -o url-checker main.go
@@ -91,7 +91,7 @@ go build -o url-checker main.go
 
 # Or run directly with Go
 go run main.go urls.txt
-Roadmap 🗺️
+## Roadmap 🗺️
 Potential enhancements for future versions:
 
 Command-line flags for timeout configuration
@@ -110,7 +110,7 @@ Bulk export results to file
 
 Docker container support
 
-Contributing 🤝
+## Contributing 🤝
 Contributions are welcome! Here's how you can help:
 
 Fork the repository
@@ -123,10 +123,10 @@ Push to the branch (git push origin feature/amazing-feature)
 
 Open a Pull Request
 
-License 📄
+## License 📄
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Disclaimer ⚠️
+## Disclaimer ⚠️
 Use this tool responsibly and only for legitimate purposes such as:
 
 Monitoring your own websites and services
