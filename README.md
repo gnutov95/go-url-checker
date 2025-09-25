@@ -14,9 +14,9 @@ A lightweight CLI tool written in Go for checking website availability and HTTP 
 
 ### Prerequisites
 * Go 1.16 or higher
-
-### From Source
 ```bash
+### From Source
+
 # Clone the repository
 git clone https://github.com/gnutov95/go-url-checker.git
 cd go-url-checker
@@ -50,14 +50,15 @@ bash
 ⚠️  https://httpbin.org/status/404 - Status: 404
 ✅ https://httpbin.org/status/200 - Status: 200
 ❌ https://httpbin.org/delay/10 - Error: context deadline exceeded
-Project Structure 🏗️
+```
+### Project Structure 🏗️
 text
 go-url-checker/
 ├── main.go          # Main application code
 ├── urls.txt         # Example URL list for testing
 ├── go.mod           # Go module file
 └── README.md        # This file
-##Core Functions 🔧
+### Core Functions 🔧
 main()
 Handles command line arguments
 
@@ -81,7 +82,7 @@ Skips empty lines
 
 Returns URL array for processing
 
-## Building and Running 🧪
+### Building and Running 🧪
 bash
 # Build the application
 go build -o url-checker main.go
@@ -91,7 +92,7 @@ go build -o url-checker main.go
 
 # Or run directly with Go
 go run main.go urls.txt
-## Roadmap 🗺️
+### Roadmap 🗺️
 Potential enhancements for future versions:
 
 Command-line flags for timeout configuration
@@ -110,7 +111,7 @@ Bulk export results to file
 
 Docker container support
 
-## Contributing 🤝
+### Contributing 🤝
 Contributions are welcome! Here's how you can help:
 
 Fork the repository
@@ -123,10 +124,10 @@ Push to the branch (git push origin feature/amazing-feature)
 
 Open a Pull Request
 
-## License 📄
+### License 📄
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Disclaimer ⚠️
+### Disclaimer ⚠️
 Use this tool responsibly and only for legitimate purposes such as:
 
 Monitoring your own websites and services
