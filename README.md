@@ -84,13 +84,13 @@ Returns URL array for processing
 
 ## Building and Running 🧪
 bash
-# Build the application
+### Build the application
 go build -o url-checker main.go
 
-# Run with test URLs
+### Run with test URLs
 ./url-checker urls.txt
 
-# Or run directly with Go
+### Or run directly with Go
 go run main.go urls.txt
 ## Roadmap 🗺️
 Potential enhancements for future versions:
