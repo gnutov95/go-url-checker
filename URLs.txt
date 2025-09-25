@@ -1,0 +1,32 @@
+# Популярные сайты (должны возвращать 200)
+https://google.com
+https://github.com
+https://stackoverflow.com
+https://httpbin.org
+
+# Специфичные статусы с httpbin.org
+https://httpbin.org/status/200
+https://httpbin.org/status/404
+https://httpbin.org/status/500
+https://httpbin.org/status/403
+https://httpbin.org/status/301
+
+# Несуществующие домены (должны вызывать ошибки)
+https://this-domain-definitely-does-not-exist-12345.com
+http://invalid-domain.localhost
+
+# Сайты с редиректами
+http://github.com (редирект на https)
+http://httpbin.org/redirect/2
+
+# Таймауты (может потребоваться увеличение таймаута в настройках)
+https://httpbin.org/delay/3
+https://httpbin.org/delay/5
+
+# Различные протоколы
+http://httpbin.org
+https://httpbin.org
+
+# Неправильные URL (для обработки ошибок)
+not-a-valid-url
+ftp://invalid-protocol.com
